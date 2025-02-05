@@ -1,6 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-class Main {
+class Exercise1_1 {
     public static void main(String[] args) {
         System.out.println("Bonjour Monde!");
         System.out.println("2 + 2 is " + (2 + 2) + " - 1 that's " + (4-1) + " quick maths" );
