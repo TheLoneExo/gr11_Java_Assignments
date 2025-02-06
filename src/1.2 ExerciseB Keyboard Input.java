@@ -20,18 +20,16 @@ class Exercise1_2_KB_Input {
     }
 }
  ~~~~~ Lesson ~~~~~ */
+        String newline = System.lineSeparator();
         Scanner console = new Scanner(System.in); //makes a Scanner called console to listen to keyboard input
-        System.out.println("Write your name and press enter:"); //prints instructions to the user
-        String name = console.nextLine(); //saves the user's keyboard input to a variable message
-        System.out.print("Welcome, ");
-        System.out.println(name);
+        System.out.println("Hi! What's your favourite animal? Type it down below :3"); //prints instructions to the user
+        String animal = console.nextLine(); //saves the user's keyboard input to a variable message
+        System.out.print("Your favourite animal is a " + animal + ", nice!");
 
         //You can also input integers and doubles
-        System.out.println("How old are you?");
-        int age = console.nextInt(); //declare an int variable, get the user input and assign to the age
-        System.out.print(name);
-        System.out.print(" is age ");
-        System.out.println(age);
+        System.out.println(newline + "Now what's 3+10?");
+        console.nextInt(); //declare an int variable, get the user input and assign to the age
+        System.out.print("It's 13.");
 
         console.nextLine(); //after using nextInt() or nextDouble(), write this line to clear the value and prepare for the next String
 
