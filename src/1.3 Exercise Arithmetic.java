@@ -37,7 +37,7 @@ class Exercise1_3_Arithmetic {
         System.out.println("10" + (3 + 4)); //Adding brackets changes the order of operation: "10" + (3 + 4) = "10" + 7 because we do 3+4 first, and then
         //Next "10" + 7 = "107"
 
-        System.out.println((3 + 4) + "10"); //Evaluate in your head, and then run the line of code to check if you are correct.
+        System.out.println((3 + 4) + "10"); //Evaluatwallpaper-engine-kde-plugin/tree/qt6wallpaper-engine-kde-plugin/tree/qt6e in your head, and then run the line of code to check if you are correct.
 
         System.out.println(3 + 4 + "10"); //Again, evaluate in your head, and then run the line of code to check if you are correct.
 
