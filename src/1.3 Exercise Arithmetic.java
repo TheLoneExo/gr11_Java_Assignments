@@ -1,65 +1,36 @@
-//Arithmetic
+
+import java.util.Scanner;
 
 class Exercise1_3_Arithmetic {
     public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        System.out.println("Please enter a number from 1-6 below to choose a program:");
+        int programNumber = console.nextInt();
+        if (programNumber == 1) {
+            System.out.println("Enter your first number below:");
+            int firstNumber = console.nextInt();
+            System.out.println("Now enter your second number below:");
+            int secondNumber = console.nextInt();
+            System.out.println(firstNumber + " + " + secondNumber + " is " + (firstNumber + secondNumber));
+            System.out.println(firstNumber + " - " + secondNumber + " is " + (firstNumber - secondNumber));
+            System.out.println(firstNumber + "/" + secondNumber + " is " + (firstNumber / secondNumber) + " with integer division");
+            System.out.println("and " + (float) firstNumber / secondNumber + " with floating division.");
+            System.out.println(firstNumber + " mod " + secondNumber + " is " + (firstNumber % secondNumber));
+        } else if (programNumber == 2) {
+            System.out.println("Enter your temperature in Celsius below:");
+            double userTemperature = console.nextDouble();
+            userTemperature = (userTemperature * 9/5 + 32);
+            System.out.println("Your temperature in Fahrenheit is: " + (float)userTemperature);
+
+
+        } else if (programNumber == 3) {
 
 
 
-        System.out.println("Part A: Basic Operations");
+        } else {
+            System.out.println("Error, you did not enter a number between 1-6, restart the code to try again.");
 
-        System.out.println(5+2); //addition
-
-        System.out.println(5-2); //subtraction
-
-        System.out.println(5*2); //multiplication
-
-        System.out.println(5/2); //Integer division - note that this truncates (cuts off) the decimal
-
-        System.out.println(5.0/2); //Float division - note that this gives a decimal answer
-
-        System.out.println(5%2); //Modulo - the remainder when 5 is divided by 2
-
-        System.out.println(1+(5+2)*3); //Order of Operation is followed (left to right, following BEDMAS)
-
-
-
-        System.out.println("Part B: Addition vs Concatenation");
-
-        System.out.println("We can put"+"two Strings together with concatenation using +");
-
-        System.out.println(3 + 4); //We can do addition with +, as well
-
-        System.out.println("10" + 3); //This addition is a String + int, so + is concatenation, not addition
-
-        System.out.println("10" + 3 + 4); //Again, "10" + 3 is String + int, so  "10" + 3 = "103".
-        //Next "103" + 4 involves a String, so it is concatenation, not addition:  "103" + 4 = "1034"
-
-        System.out.println("10" + (3 + 4)); //Adding brackets changes the order of operation: "10" + (3 + 4) = "10" + 7 because we do 3+4 first, and then
-        //Next "10" + 7 = "107"
-
-        System.out.println((3 + 4) + "10"); //Evaluatwallpaper-engine-kde-plugin/tree/qt6wallpaper-engine-kde-plugin/tree/qt6e in your head, and then run the line of code to check if you are correct.
-
-        System.out.println(3 + 4 + "10"); //Again, evaluate in your head, and then run the line of code to check if you are correct.
-
-
-
-        System.out.println("Part C: Special Operators");
-
-        int a = 6;
-
-        System.out.println("a += 3 is " + (a += 3)); // a += 3 is the same as a = a + 3
-
-        a++; //adds 1 to current value of a, prints on next line
-        System.out.println("Printing a after a++: " + a);
-
-        System.out.println("Printing a++ will print before doing a++ gives: " + a++); //This prints a and then adds one, so if we print on the next line, it is one more:
-        System.out.println("Printing a on the next line "+a);
-
-        System.out.println("a -= 4 is " + (a -= 4)); // same as a = a - 4
-
-        a--; //decrease a by one
-        System.out.println("Doing a-- and then print a: " + a); //decrease a by one
-
+        }
 
     }
 }
