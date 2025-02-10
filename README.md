@@ -1,1 +1,1 @@
-All my projects are located in the "Src" folder
+All my projects are located in the "src" folder
