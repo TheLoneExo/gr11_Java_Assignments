@@ -1,12 +1,11 @@
 import java.util.Scanner;
 class Exercise1_5A {
     public static void main(String[] args) {
-        // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
+        Scanner console = new Scanner(System.in);
 
         // Prompt the user to enter a mark
         System.out.print("Enter the mark: ");
-        double mark = scanner.nextDouble();
+        double mark = console.nextDouble();
 
         // Determine the level based on the mark
         String level;
@@ -22,11 +21,8 @@ class Exercise1_5A {
             level = "Level 0";
         }
 
-        // Print the corresponding level
         System.out.println(level);
 
-        // Close the scanner
-        scanner.close();
     }
 }
 
