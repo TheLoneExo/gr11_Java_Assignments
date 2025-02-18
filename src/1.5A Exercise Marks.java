@@ -6,8 +6,6 @@ class Exercise1_5A {
         // Prompt the user to enter a mark
         System.out.print("Enter the mark: ");
         double mark = console.nextDouble();
-
-        // Determine the level based on the mark
         String level;
         if (mark >= 80) {
             level = "Level 4";
