@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Exercise1_6 {
+class Exercise1_6_1 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Welcome to Rock Paper Scissors!");
