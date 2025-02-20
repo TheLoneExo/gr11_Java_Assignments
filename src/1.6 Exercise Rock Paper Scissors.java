@@ -4,7 +4,6 @@ class Exercise1_6 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Welcome to Rock Paper Scissors!");
-
         System.out.println("Type your choice:\n\t 1 for Rock \n\t 2 for Paper \n\t 3 for Scissors");
         int choice = console.nextInt(); // COMPLETE:Get user input and store to a variable called choice
 
@@ -18,7 +17,6 @@ class Exercise1_6 {
         } else if (choice == 3) {
             System.out.println("Player chooses Scissors");//COMPLETE: Print out for player choosing 2 or 3
         }
-
         //COMPLETE: Print out the Computer's choice
         if(comChoice == 1){
             System.out.println("Computer chooses Rock");
@@ -44,7 +42,6 @@ class Exercise1_6 {
         } else if (comChoice == 3 && choice == 2) {
             System.out.println("Computer Wins!");
         }
-
     }
 }
 
