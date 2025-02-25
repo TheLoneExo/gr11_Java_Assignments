@@ -28,10 +28,8 @@ class Exercise1_7 {
                 System.out.print(even_num + " ");
                 even_num += 2;
             }
+        }
     }
 }
-
-}
-
 
 
