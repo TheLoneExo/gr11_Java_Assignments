@@ -26,8 +26,17 @@ class Exercise1_8 {
 
             }
         } else if (input == 3) {
-            for (int i = 1; i < 21; i++) {
-                System.out.print(i + " ");
+//          Write a program to ask the user for a positive integer, and print all of the factors of that number.
+//          Sample input:
+//          24
+//          Sample output:
+//          1 2 3 4 6 8 12 24
+            System.out.print("Enter a positive integer: ");
+            int input_3 = console.nextInt();
+            for (int i = input_3; i > 0; i--) {
+                if (input_3 % i == 0){
+                    System.out.print(i + " ");
+                }
             }
 
         }
