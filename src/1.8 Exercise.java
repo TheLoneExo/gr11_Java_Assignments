@@ -7,6 +7,10 @@ class Exercise1_8 {
         System.out.print("Please type the program you want to run : ");
         int input = console.nextInt();
         if (input == 1) {
+//            Write a for loop to print out the numbers 1 to 20 on the same line, with a space between each.
+//            Sample output:
+//            1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
             for (int i = 1; i < 21; i++) {
                 System.out.print(i + " ");
             }
