@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class Exercise1_8 {
+class Exercise2_1 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.print("Please type the program you want to run : ");
@@ -13,7 +13,7 @@ class Exercise1_8 {
 
             for (int i = 1; i < 21; i++) {
                 System.out.print(i + " ");
-            } 
+            }
         } else if (input == 2) {
 //      Write a for loop to print out the multiples of 5 up to 200, on the same line with a comma between each. Every 10 numbers, go to a new line.
 //      Sample output:
