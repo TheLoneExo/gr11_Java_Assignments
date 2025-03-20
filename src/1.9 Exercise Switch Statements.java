@@ -36,7 +36,25 @@ class Exercise1_9 {
                 default -> System.out.println("Level 0");
             }
         }
-
+//      Make a simple calculator. Ask the user for two numbers and an operator (+, -, *, /, %)
+//      and output the result. Use a switch statement to do the operation.
+//      Extension: add additional operations to your options (^ exponents, anything else?).
+        if (choice == 3) {
+            System.out.println("Enter your first number: ");
+            double num1 = console.nextDouble();
+            System.out.println("Enter your second number: ");
+            double num2 = console.nextDouble();
+            System.out.println("Enter your operator: ");
+            String operator = console.next();
+            switch (operator){
+                case "+" -> System.out.println((num1) + " + " + (num2) + " = " + (num1 + num2));
+                case "-" -> System.out.println((num1) + " - " + (num2) + " = " + (num1 - num2));
+                case "*" -> System.out.println((num1) + " * " + (num2) + " = " + (num1 * num2));
+                case "/" -> System.out.println((num1) + " / " + (num2) + " = " + (num1 / num2));
+                case "%" -> System.out.println((num1) + " % " + (num2) + " = " + (num1 % num2));
+                default -> System.out.println("Invalid operator");
+            }
+        }
         }
     }
 
