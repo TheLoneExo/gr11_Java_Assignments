@@ -53,7 +53,7 @@ class Exercise1_9 {
                 case "/" -> System.out.println((num1) + " / " + (num2) + " = " + (num1 / num2));
                 case "%" -> System.out.println((num1) + " % " + (num2) + " = " + (num1 % num2));
                 default -> System.out.println("Invalid operator");
-            }
+            } 
         }
         }
     }

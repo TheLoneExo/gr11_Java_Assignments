@@ -28,7 +28,7 @@ class Exercise1_10 {
         }
         System.out.println("You entered an integer!");
     } // end main method
-} // end class
+}
 
 
 
