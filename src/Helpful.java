@@ -1,11 +1,11 @@
-
-import java.util.Scanner;
-
-class Exercise2_1 {
-    public static void main(String[] args) {
-        System.out.println(triangleArea(5, 9));
-        System.out.println(average(65, 70, 75));
-    }
+public class Helpful {
+    /*    triangleArea(double base, double height)
+        Description: returns the area of a triangle. Recall A = b*h/2
+        Parameters:
+        double base - the base of the triangle
+        double height - the height of the triangle
+        Return: double - the area of the triangle
+        Sample input: 6, 8	Sample Output: 24*/
     public static double triangleArea(double base, double height){
         double area = ((base * height) / 2);
         return area;
@@ -24,9 +24,3 @@ class Exercise2_1 {
     }
 
 }
-
-
-
-
-
-
