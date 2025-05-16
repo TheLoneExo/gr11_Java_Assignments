@@ -27,7 +27,7 @@ class Dog{
     //#4 write a method called toString that returns a String describing the dog (basically, return a String with the dog's instance variables). There are no parameters.
     public String toString(){
         if (age < 10) {
-            return "This puppy is " + age + " years old. It's name is " + name + ", and it is the " + breed + " breed.";
+            return "This is " + age + " years old. It's name is " + name + ", and it is the " + breed + " breed.";
         }
         else {
             return "This dog is " + age + " years old. It's name is " + name + ", and it is the " + breed + " breed.";
